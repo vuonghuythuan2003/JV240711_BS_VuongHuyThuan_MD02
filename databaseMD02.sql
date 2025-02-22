@@ -83,13 +83,11 @@ DELIMITER ;
 
 DELIMITER //
 
--- 1. Lấy danh sách nhân viên
 CREATE PROCEDURE Proc_Get_All_Employees()
 BEGIN
     SELECT * FROM Employee WHERE is_deleted = 0;
 END //
 
--- Thêm mới nhân viên
 CREATE PROCEDURE Proc_Add_Employee(
     IN p_first_name VARCHAR(50),
     IN p_last_name VARCHAR(50),
@@ -104,7 +102,6 @@ BEGIN
     VALUES (p_first_name, p_last_name, p_date_of_birth, p_phone, p_address, p_salary, p_department_id, NOW(), FALSE);
 END //
 
--- Cập nhật nhân viên
 CREATE PROCEDURE Proc_Update_Employee(
     IN p_employee_id INT,
     IN p_first_name VARCHAR(50),
@@ -128,7 +125,6 @@ BEGIN
     WHERE employee_id = p_employee_id AND is_deleted = 0;
 END //
 
--- Xóa nhân viên
 CREATE PROCEDURE Proc_Delete_Employee(
     IN p_employee_id INT
 )
@@ -138,7 +134,6 @@ BEGIN
     WHERE employee_id = p_employee_id;
 END //
 
--- 5. Lấy danh sách nhân viên theo tuổi giảm dần
 CREATE PROCEDURE Proc_Get_Employees_By_Age_Desc()
 BEGIN
     SELECT *, TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) AS age
@@ -147,7 +142,6 @@ BEGIN
     ORDER BY age DESC;
 END //
 
--- 6. Tìm kiếm nhân viên theo họ hoặc tên
 CREATE PROCEDURE Proc_Search_Employee_By_Name(
     IN p_keyword VARCHAR(100)
 )
@@ -158,7 +152,6 @@ BEGIN
       AND is_deleted = 0;
 END //
 
--- 7. Thống kê số lượng nhân viên theo độ tuổi
 CREATE PROCEDURE Proc_Statistic_Employee_By_Age_Group()
 BEGIN
     SELECT

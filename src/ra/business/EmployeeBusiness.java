@@ -12,7 +12,7 @@ import java.util.HashMap;
 public class EmployeeBusiness {
     public static List<Employee> findAll() {
         List<Employee> list = new ArrayList<>();
-        String sql = "{call Proc_Get_All_Employees()}"; // Đổi tên cho đúng với file SQL
+        String sql = "{call Proc_Get_All_Employees()}";
 
         try (Connection conn = ConnectionDB.getConnection();
              CallableStatement callSt = conn.prepareCall(sql);

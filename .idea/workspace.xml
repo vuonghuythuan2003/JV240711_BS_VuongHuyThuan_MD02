@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1236723c-3b68-4ca2-9c97-1c537a887ca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JV240711_BS_VuongHuyThuan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/business/DepartmentBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/business/EmployeeBusiness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/entity/IEmployeeManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/presentation/DepartmentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/presentation/EmployeeManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/presentation/StoreManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/util/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseMD02.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databaseMD02.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ra/business/EmployeeBusiness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/business/EmployeeBusiness.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +41,7 @@
     "Application.StoreManagement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/sql/mysql-connector-java-8.0.30.jar",
     "node.js.detected.package.eslint": "true",
@@ -90,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740188937203</updated>
-      <workItem from="1740188938263" duration="8004000" />
+      <workItem from="1740188938263" duration="8142000" />
     </task>
     <servers />
   </component>
